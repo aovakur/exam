@@ -24,6 +24,11 @@ public class AuctionProgram {
 				System.out.println("¬ведите описание лота");
 				String description = br.readLine();
 				auction.enterLot(description);
+				
+				System.out.println("¬ведите цену лота");
+				String highestBid= br.readLine();
+				auction.enterLot(highestBid);
+				
 			}
 			if (selection == 2) {
 				System.out.println("¬ведите номер лота");
